@@ -1,7 +1,7 @@
 
 const Urls = {
     link: {
-        cv: "https://drive.google.com/uc?id=1Pyx5R4_gOYPg0CpOGKBtL-BWZM9W_GB_&export=download",
+        cv: "https://drive.google.com/uc?export=download&id=1vQ6p6aa2MdJmXaLChyHjcK_bV7n5N6tC",
         linkedIn: "https://www.linkedin.com/in/naga-b-2b72a22ba/"
     }
 }

@@ -1,12 +1,8 @@
 'use client'
 
 import styled from '@emotion/styled';
-import { faPaperPlane } from '@fortawesome/free-solid-svg-icons';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { Button, Typography, useMediaQuery, useTheme } from '@mui/material';
 import React, { useRef } from 'react'
-// import emailjs from '@emailjs/browser';
-
 
 const RootContainer = styled("div")(({ theme }) => ({
 
@@ -107,6 +103,7 @@ function ContactMe() {
     const small = useMediaQuery(theme.breakpoints.up("sm"));
     const form = useRef();
 
+    // TODO:
     const sendEmail = (e) => {
         e.preventDefault();
 
